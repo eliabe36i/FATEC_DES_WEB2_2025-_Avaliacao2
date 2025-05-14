@@ -46,20 +46,20 @@ loja/
 ├── visualizar.php     # Lista todos os produtos
 ├── loja.sql           # Dump do banco de dados (estrutura da tabela)
 └── README.md          # Este arquivo
-```
+
 
 ---
 
  🔐 Login de Teste
 
-- **Usuário:** admin  
-- **Senha:** admin
+- Usuário: admin  
+- Senha: admin
 
 ---
 
  📦 Banco de Dados
 
- 📁 Estrutura da Tabela `produtos`:
+ 📁 Estrutura da Tabela produtos:
 
 sql
 CREATE TABLE produtos (
@@ -69,9 +69,9 @@ CREATE TABLE produtos (
     descricao VARCHAR(255),
     categoria VARCHAR(30)
 );
-```
 
-Para criar o banco de dados e tabela, utilize o arquivo `loja.sql` incluído no projeto.
+
+Para criar o banco de dados e tabela, utilize o arquivo loja.sql incluído no projeto.
 
 ---
 
